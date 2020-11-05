@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source       = { git: 'https://github.com/TrustWallet/trust-keystore.git', tag: s.version }
   s.source_files = "Sources"
 
-  s.dependency 'CryptoSwift', '~> 0.10.0'
+  s.dependency 'CryptoSwift', '~> 1.0'
   s.dependency 'secp256k1_ios', '~> 0.1.0'
   s.dependency 'TrezorCrypto'
 
